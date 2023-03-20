@@ -1,0 +1,220 @@
+<!DOCTYPE html>  
+<html> 
+    
+    <head>
+        <meta charset="UTF-8">
+            <title> Ass </title> 
+    </head>   
+    <body>
+        <h1>Assignment 03  HTML</h1> 
+        <hr>   
+            <!-- <div> 
+                   <table border="1"> 
+                    <caption >Student Marks in Courses </caption>
+                        <tbody> 
+                            <th rowspan="2"> University Id </th> 
+                            <th rowspan="2"> Student Name </th> 
+                            <th colspan="4"> Couse Info </th> 
+                            <th rowspan="2"> Total</th>                    
+                        </tbody> 
+                        <tr>  
+                            <td rowspan="3"> 120201123</td> 
+                            <td rowspan="3"> Anas</td> 
+                            <th>Couse Name </th>
+                            <th>Couse Hours</th> 
+                            <th>Midterm </th> 
+                            <th>final</th>                             
+                        </tr> 
+                        <tr>  
+                            <td>Couse A</td> 
+                            <td>3</td>
+                            <td>35</td> 
+                            <td>45</td>
+                            <td>80</td>
+                        </tr> 
+                        <tr> 
+                            <td>Couse B</td> 
+                            <td>2</td>
+                            <td>30</td> 
+                            <td>55</td>
+                            <td>85</td>
+                        </tr> 
+                        <tr> 
+                            <td>Couse C</td> 
+                            <td>4</td>
+                            <td>35</td> 
+                            <td>60</td>
+                            <td>95</td>
+                        </tr>  
+                        <tr>
+                            <th colspan="2">Student Rate</th> 
+                            <th colspan="5">87.77</th>
+
+                        </tr>
+                        <tr>
+                            <td rowspan="2">120212566</td> 
+                            <td rowspan="2">Ahmed </td>  
+                            <td>Couse A</td> 
+                            <td>3</td>
+                            <td>20</td> 
+                            <td>40</td>
+                            <td>60</td>
+                        </tr>  
+                        <tr>
+                            <td>Couse B</td> 
+                            <td>2</td>
+                            <td>30</td> 
+                            <td>40</td>
+                            <td>70</td>
+
+                        </tr> 
+                        <tr>
+                            <th colspan="2">Student Rate</th> 
+                            <th colspan="5">64.0</th>
+                        </tr>
+                   </table> 
+            </div>   --> 
+            <table border="1">
+                <caption>Students Marks in Courses</caption>
+                <tr>
+                    <th rowspan="2">University Id</th>
+                    <th rowspan="2">Student Name</th>
+                    <th colspan="4">Course Info</th>
+                    <th rowspan="2">Total</th>
+                </tr>
+                <tr>
+                    <th>Course Name</th>
+                    <th>Course Hours</th>
+                    <th>Midterm</th>
+                    <th>Final</th>
+                </tr>
+                <tr>
+                    <td rowspan="3">120211234</td>
+                    <td rowspan="3">Anas</td>
+                    <td>Course A</td>
+                    <td>3</td>
+                    <td>35</td>
+                    <td>45</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td>Course B</td>
+                    <td>2</td>
+                    <td>30</td>
+                    <td>55</td>
+                    <td>85</td>
+                </tr>
+                <tr>
+                    <td>Course C</td>
+                    <td>4</td>
+                    <td>35</td>
+                    <td>60</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Student Rate</th>
+                    <th colspan="5">87.77</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">120210125</td>
+                    <td rowspan="2">Ahmed</td> 
+                    <td>Course A</td>
+            <td>3</td>
+            <td>20</td>
+            <td>40</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>Course B</td>
+            <td>3</td>
+            <td>30</td>
+            <td>40</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <th colspan="2">Student Rate</th>
+            <th colspan="5">64.0</th>
+        </tr>
+    </table>
+
+            <hr>   
+            <div> 
+                <fieldset> 
+                    <legend>Register Form</legend> 
+                    <div> 
+                        <label>Full Name </label> 
+                        <input type="text" placeholder="Enter your full Name" required> 
+                   </div> 
+                   <div> 
+                    <label>Email  </label> 
+                    <input type="Email" placeholder="Enter your email " required> 
+               </div> 
+           <div> 
+            <label>password   </label> 
+            <input type="password" placeholder="Enter your password " required> 
+           </div>    
+           <div>
+            <input type="radio" name="gender"> 
+            <label> Gender </label>  
+            <input type="radio" name="gender">
+            <label> Male </label> 
+            <input type="radio" name="gender">
+            <label> female </label>
+           </div>
+           <div> 
+             <label>Date of Birth</label>
+            <input type="date">           
+          </div> 
+          <div>  
+            <label>Country</label>  
+            <select>                          
+                <optgroup label="Africa">                   
+                    <option >Egypt</option> 
+                    <option >Sudan</option>  
+                    <optgroup label="Asia"> 
+                    <option aria-checked="true">Palestine</option>
+                    <option>Kuwait</option>
+                    </optgroup>
+                    
+                </optgroup>                
+            </select>
+          </div> 
+          <div> 
+                <label>Favorite color</label> 
+                <input type="color">
+          </div> 
+          <div> 
+            <form>  
+                <label>Choose your interests :</label>   
+                <input type="checkbox" checked>  
+                <label> Coding</label>
+                <input type="checkbox" checked> 
+                <label> Design</label>
+                <input type="checkbox">
+                <label> sport</label>
+                <input type="checkbox">
+                <label> Other</label>
+
+            </form>               
+          </div> 
+          <div> 
+            <label> Attachments :</label> 
+            <input type="file"> 
+          </div>  
+          <div> 
+            <label>Notes :</label> 
+            <textarea cols="30" rows="10"></textarea>
+          </div>  
+            <input type="submit">     
+            <input type="reset" >             
+                </fieldset>
+
+
+            </div>
+        
+    </body> 
+
+
+
+
+</html>
